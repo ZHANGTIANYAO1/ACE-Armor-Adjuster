@@ -14,18 +14,57 @@
       <Portuguese>Ajustador de armadura ACE</Portuguese>
       <Czech>ACE Armor Adjuster</Czech>
     </Key>
+    <Key ID="STR_AAA_Toggles">
+      <English>[1] Toggles</English>
+      <Spanish>[1] Interruptores</Spanish>
+      <German>[1] Schaltet  um.</German>
+      <Chinesesimp>[1] 钮扣</Chinesesimp>
+      <Japanese>[1] トグル</Japanese>
+      <Italian>[1] Alette</Italian>
+      <French>[1] Toggles</French>
+      <Polish>[1] Przełączniki</Polish>
+      <Russian>[1] Переключатели</Russian>
+      <Portuguese>[1] Toggles</Portuguese>
+      <Czech>[1] Přepínače</Czech>
+    </Key>
+    <Key ID="STR_AAA_ModEnabled">
+      <English>Mod Enabled</English>
+      <Spanish>Mod Habilitado</Spanish>
+      <German>Mod Aktiviert</German>
+      <Chinesesimp>已启用的模式</Chinesesimp>
+      <Japanese>Mod Enabled</Japanese>
+      <Italian>Mod Abilitato</Italian>
+      <French>Mod Enabled</French>
+      <Polish>Mod Włączony</Polish>
+      <Russian>Мод включен</Russian>
+      <Portuguese>Modificado</Portuguese>
+      <Czech>Mod Povoleno</Czech>
+    </Key>
+    <Key ID="STR_AAA_ModEnabled_Desc">
+      <English>Whether the mod is enabled and overriding default ACE damage or not.</English>
+      <Spanish>Si el mod está activado y anula el daño por defecto de ACE o no.</Spanish>
+      <German>Ob der Mod aktiviert ist und den Standard-ACE-Schaden außer Kraft setzt oder nicht.</German>
+      <Chinesesimp>是否启用MOD并覆盖默认的ACE伤害。</Chinesesimp>
+      <Japanese>MODが有効で、デフォルトのACEダメージを上書きしているかどうか。</Japanese>
+      <Italian>Se la mod è abilitata e sovrascrive i danni ACE predefiniti o meno.</Italian>
+      <French>Si le mod est activé et remplace les dommages par défaut de l'ACE ou non.</French>
+      <Polish>Czy mod jest włączony i nadpisuje domyślne obrażenia ACE czy nie.</Polish>
+      <Russian>Включен ли мод и переопределяет ли он стандартный урон ACE или нет.</Russian>
+      <Portuguese>Se o mod está ou não activado e se o dano ACE por omissão está ou não activado.</Portuguese>
+      <Czech>Zda je mod povolen a přepisuje výchozí poškození ACE, nebo ne.</Czech>
+    </Key>
     <Key ID="STR_AAA_ArmorCoefs">
-      <English>Armor Coefficients</English>
-      <Spanish>Coeficientes de blindaje</Spanish>
-      <German>Rüstungskoeffizienten</German>
-      <Chinesesimp>盔甲系数</Chinesesimp>
-      <Japanese>アーマー係数</Japanese>
-      <Italian>Coefficienti di armatura</Italian>
-      <French>Coefficients d'armure</French>
-      <Polish>Współczynniki pancerza</Polish>
-      <Russian>Коэффициенты брони</Russian>
-      <Portuguese>Coeficientes de Blindagem</Portuguese>
-      <Czech>Koeficienty pancíře</Czech>
+      <English>[2] Armor Coefficients</English>
+      <Spanish>[2] Coeficientes de blindaje</Spanish>
+      <German>[2] Rüstungskoeffizienten</German>
+      <Chinesesimp>[2] 盔甲系数</Chinesesimp>
+      <Japanese>[2] アーマー係数</Japanese>
+      <Italian>[2] Coefficienti di armatura</Italian>
+      <French>[2] Coefficients d'armure</French>
+      <Polish>[2] Współczynniki pancerza</Polish>
+      <Russian>[2] Коэффициенты брони</Russian>
+      <Portuguese>[2] Coeficientes de Blindagem</Portuguese>
+      <Czech>[2] Koeficienty pancíře</Czech>
     </Key>
     <Key ID="STR_AAA_PlayerArmorCoef">
       <English>Player Armor Coefficient</English>
@@ -78,6 +117,110 @@
       <Russian>Регулирует, насколько хорошо броня АСЕ блокирует урон для ИИ. Меньшее значение означает менее эффективную броню, в то время как большее значение обеспечивает более эффективную броню.</Russian>
       <Portuguese>Ajusta o quão bem a armadura ACE bloqueia os danos para a IA. Um valor mais baixo significa uma armadura menos eficaz, enquanto que um valor mais alto proporciona uma armadura mais eficaz.</Portuguese>
       <Czech>Upravuje, jak dobře brnění ACE blokuje poškození pro umělou inteligenci. Nižší hodnota znamená méně účinný pancíř, zatímco vyšší hodnota poskytuje účinnější pancíř.</Czech>
+    </Key>
+    <Key ID="STR_AAA_BluforArmorCoef">
+      <English>BLUFOR Armor Coefficient</English>
+      <Spanish>Coeficiente de blindaje BLUFOR</Spanish>
+      <German>BLUFOR Rüstungskoeffizient</German>
+      <Chinesesimp>BLUFOR装甲系数</Chinesesimp>
+      <Japanese>BLUFORアーマー係数</Japanese>
+      <Italian>Coefficiente di armatura BLUFOR</Italian>
+      <French>Coefficient d'armure BLUFOR</French>
+      <Polish>Współczynnik pancerza BLUFOR</Polish>
+      <Russian>Коэффициент брони BLUFOR</Russian>
+      <Portuguese>Coeficiente de Armadura BLUFOR</Portuguese>
+      <Czech>Koeficient pancéřování BLUFOR</Czech>
+    </Key>
+    <Key ID="STR_AAA_BluforArmorCoef_Desc">
+      <English>Adjusts how well ACE armor blocks damage for BLUFOR. A lower value means less effective armor, whereas a higher value provides more effective armor. Set to 0 to disable, will override AI/player coefficients.</English>
+      <Spanish>Ajusta la eficacia de la armadura ACE para bloquear el daño de BLUFOR. Un valor más bajo significa una armadura menos efectiva, mientras que un valor más alto proporciona una armadura más efectiva. Poner a 0 para desactivar, anulará los coeficientes de la IA/del jugador.</Spanish>
+      <German>Stellt ein, wie gut die ACE-Rüstung Schaden für BLUFOR abblockt. Ein niedriger Wert bedeutet eine weniger effektive Panzerung, während ein höherer Wert eine effektivere Panzerung bietet. Wird der Wert auf 0 gesetzt, werden die KI/Spieler-Koeffizienten außer Kraft gesetzt.</German>
+      <Chinesesimp>调整ACE装甲为BLUFOR阻挡伤害的程度。较低的值意味着较低的有效护甲，而较高的值则提供更有效的护甲。设置为0表示禁用，将覆盖AI/玩家的系数。</Chinesesimp>
+      <Japanese>BLUFORのACEアーマーのダメージブロック効果を調整します。値が低いほど効果的なアーマーが少なくなり、値が高いほど効果的なアーマーになります。0に設定すると無効となり、AI/プレイヤー係数が上書きされます。</Japanese>
+      <Italian>Regola la capacità dell'armatura ACE di bloccare i danni per BLUFOR. Un valore più basso significa un'armatura meno efficace, mentre un valore più alto fornisce un'armatura più efficace. Se si imposta su 0 per disattivare, i coefficienti IA/giocatore verranno sovrascritti.</Italian>
+      <French>Règle la façon dont l'armure ACE bloque les dégâts pour BLUFOR. Une valeur plus faible signifie une armure moins efficace, tandis qu'une valeur plus élevée fournit une armure plus efficace. Réglez à 0 pour désactiver, cela annulera les coefficients AI/joueur.</French>
+      <Polish>Reguluje skuteczność blokowania obrażeń przez pancerz ACE dla BLUFOR. Niższa wartość oznacza mniej efektywny pancerz, podczas gdy wyższa wartość zapewnia bardziej efektywny pancerz. Ustaw na 0, aby wyłączyć, zastąpi współczynniki AI/gracza.</Polish>
+      <Russian>Регулирует, насколько хорошо броня ACE блокирует урон для BLUFOR. Меньшее значение означает меньшую эффективность брони, в то время как большее значение обеспечивает большую эффективность брони. Установите значение 0, чтобы отключить, оно будет отменять коэффициенты ИИ/игрока.</Russian>
+      <Portuguese>Ajusta a forma como a armadura ACE bloqueia os danos para a BLUFOR. Um valor mais baixo significa uma armadura menos eficaz, enquanto que um valor mais alto proporciona uma armadura mais eficaz. Definido a 0 para desactivar, irá sobrepor-se aos coeficientes AI/jogador.</Portuguese>
+      <Czech>Upravuje, jak dobře brnění ACE blokuje poškození pro BLUFOR. Nižší hodnota znamená méně účinný pancíř, zatímco vyšší hodnota poskytuje účinnější pancíř. Nastavením na 0 se vypne, přepíše koeficienty AI/hráčů.</Czech>
+    </Key>
+    <Key ID="STR_AAA_OpforArmorCoef">
+      <English>OPFOR Armor Coefficient</English>
+      <Spanish>Coeficiente de blindaje OPFOR</Spanish>
+      <German>OPFOR-Rüstungskoeffizient</German>
+      <Chinesesimp>OPFOR装甲系数</Chinesesimp>
+      <Japanese>OPFORアーマー係数</Japanese>
+      <Italian>Coefficiente di armatura OPFOR</Italian>
+      <French>Coefficient de blindage de l'OPFOR</French>
+      <Polish>Współczynnik pancerza OPFOR</Polish>
+      <Russian>Коэффициент бронирования ОПФОР</Russian>
+      <Portuguese>Coeficiente de Armadura OPFOR</Portuguese>
+      <Czech>Koeficient pancéřování OPFOR</Czech>
+    </Key>
+    <Key ID="STR_AAA_OpforArmorCoef_Desc">
+      <English>Adjusts how well ACE armor blocks damage for OPFOR. A lower value means less effective armor, whereas a higher value provides more effective armor. Set to 0 to disable, will override AI/player coefficients.</English>
+      <Spanish>Ajusta la eficacia del blindaje ACE para bloquear el daño de la OPFOR. Un valor más bajo significa un blindaje menos efectivo, mientras que un valor más alto proporciona un blindaje más efectivo. Poner a 0 para desactivar, anulará los coeficientes de la IA/del jugador.</Spanish>
+      <German>Passt an, wie gut die ACE-Rüstung Schaden für OPFOR abblockt. Ein niedriger Wert bedeutet eine weniger effektive Panzerung, während ein höherer Wert eine effektivere Panzerung bietet. Wird der Wert auf 0 gesetzt, werden die KI/Spieler-Koeffizienten außer Kraft gesetzt.</German>
+      <Chinesesimp>调整ACE装甲为OPFOR阻挡伤害的程度。较低的值意味着较低的有效护甲，而较高的值则提供更有效的护甲。设置为0表示禁用，将覆盖AI/玩家的系数。</Chinesesimp>
+      <Japanese>ACEのアーマーがOPFORのダメージをどの程度ブロックするかを調整します。値が低いほど効果的なアーマーが少なくなり、値が高いほど効果的なアーマーが多くなります。0に設定すると無効となり、AI/プレイヤー係数が上書きされます。</Japanese>
+      <Italian>Regola la capacità dell'armatura ACE di bloccare i danni per l'OPFOR. Un valore più basso significa un'armatura meno efficace, mentre un valore più alto fornisce un'armatura più efficace. Impostare su 0 per disabilitare, sovrascrive i coefficienti di IA/giocatore.</Italian>
+      <French>Règle la façon dont le blindage ACE bloque les dégâts pour l'OPFOR. Une valeur plus faible signifie un blindage moins efficace, tandis qu'une valeur plus élevée fournit un blindage plus efficace. Défini à 0 pour désactiver, il remplacera les coefficients AI/joueur.</French>
+      <Polish>Reguluje, jak dobrze pancerz ACE blokuje obrażenia dla OPFOR. Niższa wartość oznacza mniej efektywny pancerz, podczas gdy wyższa wartość zapewnia bardziej efektywny pancerz. Ustawienie na 0 wyłącza, nadpisuje współczynniki AI/gracza.</Polish>
+      <Russian>Регулирует, насколько хорошо броня ACE блокирует урон для OPFOR. Меньшее значение означает менее эффективную броню, в то время как большее значение обеспечивает более эффективную броню. Установите значение 0, чтобы отключить, оно отменяет коэффициенты ИИ/игрока.</Russian>
+      <Portuguese>Ajusta a forma como a armadura ACE bloqueia os danos para a OPFOR. Um valor mais baixo significa uma armadura menos eficaz, enquanto que um valor mais alto proporciona uma armadura mais eficaz. Definido a 0 para desactivar, irá sobrepor-se aos coeficientes AI/jogador.</Portuguese>
+      <Czech>Upravuje, jak dobře pancíř ACE blokuje poškození pro OPFOR. Nižší hodnota znamená méně účinný pancíř, zatímco vyšší hodnota poskytuje účinnější pancíř. Nastavením na 0 se vypne, přepíše koeficienty AI/hráčů.</Czech>
+    </Key>
+    <Key ID="STR_AAA_CivArmorCoef">
+      <English>CIVILIAN Armor Coefficient</English>
+      <Spanish>Coeficiente de Blindaje CIVIL</Spanish>
+      <German>CIVILIAN Rüstungskoeffizient</German>
+      <Chinesesimp>民兵装甲系数</Chinesesimp>
+      <Japanese>シビリアンアーマー係数</Japanese>
+      <Italian>Coefficiente di armatura CIVILE</Italian>
+      <French>CIVILE Coefficient d'armure</French>
+      <Polish>CIVILIAN Armor Coefficient</Polish>
+      <Russian>Коэффициент брони ЦИВИЛИАН</Russian>
+      <Portuguese>Coeficiente de Armadura CIVILIANO</Portuguese>
+      <Czech>CIVILIAN Koeficient pancéřování</Czech>
+    </Key>
+    <Key ID="STR_AAA_CivArmorCoef_Desc">
+      <English>Adjusts how well ACE armor blocks damage for CIVILIANS. A lower value means less effective armor, whereas a higher value provides more effective armor. Set to 0 to disable, will override AI/player coefficients.</English>
+      <Spanish>Ajusta la eficacia de la armadura ACE para bloquear el daño de los CIVILES. Un valor más bajo significa una armadura menos efectiva, mientras que un valor más alto proporciona una armadura más efectiva. Poner a 0 para desactivar, anulará los coeficientes de la IA/del jugador.</Spanish>
+      <German>Regelt, wie gut die ACE-Rüstung Schaden für CIVILIANS abblockt. Ein niedriger Wert bedeutet eine weniger effektive Panzerung, während ein höherer Wert eine effektivere Panzerung bietet. Wird der Wert auf 0 gesetzt, werden die KI/Spieler-Koeffizienten außer Kraft gesetzt.</German>
+      <Chinesesimp>调整ACE装甲对平民的伤害阻挡程度。较低的值意味着较低的有效护甲，而较高的值则提供更有效的护甲。设置为0表示禁用，将覆盖AI/玩家的系数。</Chinesesimp>
+      <Japanese>ACEアーマーがCIVILIANSのダメージをどの程度ブロックするかを調整する。値が低いほど効果的なアーマーが少なくなり、値が高いほど効果的なアーマーが多くなります。0に設定すると無効となり、AI/プレイヤーの係数が上書きされます。</Japanese>
+      <Italian>Regola la capacità dell'armatura ACE di bloccare i danni per i CIVILI. Un valore più basso significa un'armatura meno efficace, mentre un valore più alto fornisce un'armatura più efficace. Impostare su 0 per disabilitare, sovrascrive i coefficienti di IA/giocatore.</Italian>
+      <French>Règle la façon dont l'armure ACE bloque les dégâts pour les CIVILIENS. Une valeur plus faible signifie une armure moins efficace, tandis qu'une valeur plus élevée fournit une armure plus efficace. Réglez à 0 pour désactiver, cela annulera les coefficients AI/joueur.</French>
+      <Polish>Ustawia jak dobrze pancerz ACE blokuje obrażenia dla CYWILISTÓW. Niższa wartość oznacza mniej efektywny pancerz, podczas gdy wyższa wartość zapewnia bardziej efektywny pancerz. Ustaw na 0, aby wyłączyć, zastąpi współczynniki AI/gracza.</Polish>
+      <Russian>Регулирует, насколько хорошо броня ACE блокирует урон для CIVILIANS. Меньшее значение означает меньшую эффективность брони, в то время как большее значение обеспечивает более эффективную броню. Установите значение 0, чтобы отключить, оно отменяет коэффициенты ИИ/игрока.</Russian>
+      <Portuguese>Ajusta o quão bem a armadura ACE bloqueia os danos para os CIVILIANS. Um valor mais baixo significa uma armadura menos eficaz, enquanto que um valor mais alto proporciona uma armadura mais eficaz. Definido a 0 para desactivar, irá sobrepor-se aos coeficientes de IA/jogador.</Portuguese>
+      <Czech>Upravuje, jak dobře brnění ACE blokuje poškození u CIVILISTŮ. Nižší hodnota znamená méně účinný pancíř, zatímco vyšší hodnota poskytuje účinnější pancíř. Nastavením na 0 se vypne, přepíše koeficienty AI/hráčů.</Czech>
+    </Key>
+    <Key ID="STR_AAA_IndArmorCoef">
+      <English>INDEPENDENT/RESISTANCE Armor Coefficient</English>
+      <Spanish>Coeficiente de blindaje INDEPENDIENTE/RESISTENTE</Spanish>
+      <German>UNABHÄNGIG/RESISTENZ Panzerkoeffizient</German>
+      <Chinesesimp>独立/抵抗装甲系数</Chinesesimp>
+      <Japanese>INDEPENDENT/RESISTANCE アーマー係数</Japanese>
+      <Italian>Coefficiente di armatura INDIPENDENTE/RESISTENZA</Italian>
+      <French>INDEPENDANCE/RESISTANCE Coefficient d'armure</French>
+      <Polish>WSPÓŁCZYNNIK ZBROJNY/RESISTANCE Współczynnik zbroi</Polish>
+      <Russian>Коэффициент брони ИНДЕПЕНДЕНТ/РЕЗИСТАНС</Russian>
+      <Portuguese>Coeficiente de Armadura INDEPENDENTE/RESISTÊNCIA</Portuguese>
+      <Czech>Koeficient pancéřování INDEPENDENT/RESISTANCE</Czech>
+    </Key>
+    <Key ID="STR_AAA_IndArmorCoef_Desc">
+      <English>Adjusts how well ACE armor blocks damage for INDEPENDENT/RESISTANCE. A lower value means less effective armor, whereas a higher value provides more effective armor. Set to 0 to disable, will override AI/player coefficients.</English>
+      <Spanish>Ajusta la eficacia con la que la armadura de ACE bloquea el daño para INDEPENDIENTE/RESISTENCIA. Un valor más bajo significa una armadura menos efectiva, mientras que un valor más alto proporciona una armadura más efectiva. Poner a 0 para desactivar, anulará los coeficientes de la IA/del jugador.</Spanish>
+      <German>Stellt ein, wie gut die ACE-Rüstung Schaden für UNABHÄNGIG/WIDERSTAND abblockt. Ein niedriger Wert bedeutet weniger effektive Panzerung, während ein höherer Wert eine effektivere Panzerung bietet. Wird der Wert auf 0 gesetzt, werden die KI/Spieler-Koeffizienten außer Kraft gesetzt.</German>
+      <Chinesesimp>调整ACE装甲对独立/抵抗伤害的阻挡程度。较低的值意味着较低的有效护甲，而较高的值则提供更有效的护甲。设置为0表示禁用，将覆盖AI/玩家的系数。</Chinesesimp>
+      <Japanese>INDEPENDENT/RESISTANCEのACEアーマーのダメージブロック効果を調整する。値が低いほど効果的なアーマーが少なくなり、値が高いほど効果的なアーマーが多くなる。0に設定すると無効となり、AI/プレイヤー係数が上書きされます。</Japanese>
+      <Italian>Regola la capacità dell'armatura ACE di bloccare i danni per INDIPENDENZA/RESISTENZA. Un valore più basso significa un'armatura meno efficace, mentre un valore più alto fornisce un'armatura più efficace. Se si imposta su 0 per disattivare, i coefficienti dell'IA/giocatore verranno sovrascritti.</Italian>
+      <French>Règle la façon dont l'armure ACE bloque les dégâts pour l'INDEPENDANCE/RESISTANCE. Une valeur plus faible signifie une armure moins efficace, tandis qu'une valeur plus élevée fournit une armure plus efficace. Réglez à 0 pour désactiver, cela annulera les coefficients AI/joueur.</French>
+      <Polish>Reguluje, jak dobrze pancerz ACE blokuje obrażenia dla NIEZALEŻNYCH/RESISTANCE. Niższa wartość oznacza mniej efektywny pancerz, podczas gdy wyższa wartość zapewnia bardziej efektywny pancerz. Ustaw na 0, aby wyłączyć, zastąpi współczynniki AI/gracza.</Polish>
+      <Russian>Регулирует, насколько хорошо броня ACE блокирует урон для INDEPENDENT/RESISTANCE. Меньшее значение означает меньшую эффективность брони, в то время как большее значение обеспечивает более эффективную броню. Установите значение 0, чтобы отключить, оно отменяет коэффициенты ИИ/игрока.</Russian>
+      <Portuguese>Ajusta a forma como a armadura ACE bloqueia os danos por INDEPENDENTE/RESISTÊNCIA. Um valor mais baixo significa uma armadura menos eficaz, enquanto que um valor mais alto proporciona uma armadura mais eficaz. Definido a 0 para desactivar, irá sobrepor-se aos coeficientes de IA/jogador.</Portuguese>
+      <Czech>Upravuje, jak dobře brnění ACE blokuje poškození pro INDEPENDENT/RESISTANCE. Nižší hodnota znamená méně účinný pancíř, zatímco vyšší hodnota poskytuje účinnější pancíř. Nastavením na 0 se vypne, přepíše koeficienty AI/hráče.</Czech>
     </Key>
   </Package>
 </Project>
