@@ -15,6 +15,17 @@
 private _modName = localize "STR_AAA_Name";
 
 [
+	"AAA_VAR_MOD_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_ModEnabled", "$STR_AAA_ModEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
 	"AAA_VAR_PLAYER_ARMOR_COEF",
 	"SLIDER",
 	["$STR_AAA_PlayerArmorCoef", "$STR_AAA_PlayerArmorCoef_Desc"],
@@ -81,11 +92,121 @@ private _modName = localize "STR_AAA_Name";
 ] call CBA_fnc_addSetting;
 
 [
-	"AAA_VAR_MOD_ENABLED",
-	"CHECKBOX",
-	["$STR_AAA_ModEnabled", "$STR_AAA_ModEnabled_Desc"],
-	[_modName, "$STR_AAA_Toggles"],
-	true,
+	"AAA_VAR_HITFACE_MULT",
+	"SLIDER",
+	["$STR_AAA_FaceMult", "$STR_AAA_FaceMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITNECK_MULT",
+	"SLIDER",
+	["$STR_AAA_NeckMult", "$STR_AAA_NeckMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITHEAD_MULT",
+	"SLIDER",
+	["$STR_AAA_HeadMult", "$STR_AAA_HeadMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITPELVIS_MULT",
+	"SLIDER",
+	["$STR_AAA_PelvisMult", "$STR_AAA_PelvisMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITABDOMEN_MULT",
+	"SLIDER",
+	["$STR_AAA_AbdomenMult", "$STR_AAA_AbdomenMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITDIAPHRAGM_MULT",
+	"SLIDER",
+	["$STR_AAA_DiaphragmMult", "$STR_AAA_DiaphragmMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITCHEST_MULT",
+	"SLIDER",
+	["$STR_AAA_ChestMult", "$STR_AAA_ChestMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITBODY_MULT",
+	"SLIDER",
+	["$STR_AAA_BodyMult", "$STR_AAA_BodyMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITARMS_MULT",
+	"SLIDER",
+	["$STR_AAA_ArmsMult", "$STR_AAA_ArmsMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITHANDS_MULT",
+	"SLIDER",
+	["$STR_AAA_HandsMult", "$STR_AAA_HandsMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITLEGS_MULT",
+	"SLIDER",
+	["$STR_AAA_LegsMult", "$STR_AAA_LegsMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
 	1,
 	{},
 	false

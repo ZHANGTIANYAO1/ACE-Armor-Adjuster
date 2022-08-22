@@ -222,5 +222,304 @@
       <Portuguese>Ajusta a forma como a armadura ACE bloqueia os danos por INDEPENDENTE/RESISTÊNCIA. Um valor mais baixo significa uma armadura menos eficaz, enquanto que um valor mais alto proporciona uma armadura mais eficaz. Definido a 0 para desactivar, irá sobrepor-se aos coeficientes de IA/jogador.</Portuguese>
       <Czech>Upravuje, jak dobře brnění ACE blokuje poškození pro INDEPENDENT/RESISTANCE. Nižší hodnota znamená méně účinný pancíř, zatímco vyšší hodnota poskytuje účinnější pancíř. Nastavením na 0 se vypne, přepíše koeficienty AI/hráče.</Czech>
     </Key>
+    <Key ID="STR_AAA_HitpointMults">
+      <English>[3] Hitpoint Multipliers</English>
+      <Spanish>[3] Multiplicadores de puntos de golpe</Spanish>
+      <German>[3] Multiplikatoren für Trefferpunkte</German>
+      <Chinesesimp>[3] 命中率乘法</Chinesesimp>
+      <Japanese>[3] ヒットポイント倍率</Japanese>
+      <Italian>[3] Moltiplicatori di punti ferita</Italian>
+      <French>[3] Multiplicateurs de points de vie</French>
+      <Polish>[3] Mnożniki punktów trafień</Polish>
+      <Russian>[3] Множители хитпоинтов</Russian>
+      <Portuguese>[3] Multiplicadores de Hitpoint</Portuguese>
+      <Czech>[3] Násobiče zásahových bodů</Czech>
+    </Key>
+    <Key ID="STR_AAA_FaceMult">
+      <English>Face Multiplier</English>
+      <Spanish>Multiplicador de caras</Spanish>
+      <German>Gesicht Multiplikator</German>
+      <Chinesesimp>脸部乘法器</Chinesesimp>
+      <Japanese>フェイスマルチプライヤー</Japanese>
+      <Italian>Moltiplicatore del viso</Italian>
+      <French>Multiplicateur de visage</French>
+      <Polish>Mnożnik twarzy</Polish>
+      <Russian>Множитель лица</Russian>
+      <Portuguese>Multiplicador facial</Portuguese>
+      <Czech>Násobitel obličeje</Czech>
+    </Key>
+    <Key ID="STR_AAA_FaceMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Face" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de blindaje para el punto de impacto "Cara". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Gesicht" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>脸部 "击中点的护甲系数乘以的数值。较高的值意味着这个打击点有更多的装甲，较小的值意味着较少的装甲。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>顔」のヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーが高くなり、値が小さいほどアーマーが低くなります。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto colpito "Faccia". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Visage". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Face". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для точки попадания "Лицо". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem por para o ponto de golpe "Face". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient pancíře pro zásahový bod "Tvář". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_NeckMult">
+      <English>Neck Multiplier</English>
+      <Spanish>Multiplicador de cuello</Spanish>
+      <German>Nacken-Multiplikator</German>
+      <Chinesesimp>颈部乘法器</Chinesesimp>
+      <Japanese>ネックマルチプライヤー</Japanese>
+      <Italian>Moltiplicatore del collo</Italian>
+      <French>Multiplicateur de cou</French>
+      <Polish>Mnożnik szyjny</Polish>
+      <Russian>Мультипликатор шеи</Russian>
+      <Portuguese>Multiplicador de Pescoço</Portuguese>
+      <Czech>Násobič krku</Czech>
+    </Key>
+    <Key ID="STR_AAA_NeckMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Neck" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de blindaje para el punto de impacto "Cuello". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Hals" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>颈部 "打击点的护甲系数乘以的数值。较高的值意味着这个打击点有更多的装甲，较小的值意味着较少的装甲。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>首」のヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーは高くなり、値が小さいほどアーマーは低くなります。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto di impatto "Collo". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Cou". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Neck". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для хитпоинта "Шея". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Pescoço". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient brnění pro zásahový bod "Krk". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_HeadMult">
+      <English>Head Multiplier</English>
+      <Spanish>Multiplicador de cabezas</Spanish>
+      <German>Kopf-Multiplikator</German>
+      <Chinesesimp>头部乘法器</Chinesesimp>
+      <Japanese>ヘッドマルチプライヤー</Japanese>
+      <Italian>Moltiplicatore di testa</Italian>
+      <French>Multiplicateur de tête</French>
+      <Polish>Mnożnik głowic</Polish>
+      <Russian>Множитель головы</Russian>
+      <Portuguese>Multiplicador de cabeça</Portuguese>
+      <Czech>Násobič hlavy</Czech>
+    </Key>
+    <Key ID="STR_AAA_HeadMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Head" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de armadura para el punto de impacto "Cabeza". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Kopf" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>头部 "打击点的护甲系数乘以的数值。较高的值意味着这个打击点有更多的装甲，较小的值意味着较少的装甲。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>Head」ヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーが高くなり、値が小さいほどアーマーが低くなることを意味します。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto colpito "Testa". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Tête". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Head". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для хитпоинта "Голова". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem por para o ponto de golpe "Cabeça". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient brnění pro zásahový bod "Hlava". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_PelvisMult">
+      <English>Pelvis Multiplier</English>
+      <Spanish>Multiplicador de pelvis</Spanish>
+      <German>Becken-Multiplikator</German>
+      <Chinesesimp>骨盆乘法器</Chinesesimp>
+      <Japanese>ペルビス・マルチプライヤー</Japanese>
+      <Italian>Moltiplicatore del bacino</Italian>
+      <French>Multiplicateur de pelvis</French>
+      <Polish>Multiplikator miednicy</Polish>
+      <Russian>Мультипликатор таза</Russian>
+      <Portuguese>Multiplicador Pelvis</Portuguese>
+      <Czech>Multiplikátor pánve</Czech>
+    </Key>
+    <Key ID="STR_AAA_PelvisMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Pelvis" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de blindaje para el punto de impacto "Pelvis". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Becken" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>骨盆 "打击点的护甲系数乘以的数值。数值越高意味着这个打击点有更多的护甲，数值越小意味着护甲越少。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>Pelvis」ヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーが高くなり、値が小さいほどアーマーが低くなることを意味します。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto colpito "Bacino". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Pelvis". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Pelvis". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для точки попадания "Таз". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Pelvis". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient pancíře pro zásahový bod "Pánev". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_AbdomenMult">
+      <English>Abdomen Multiplier</English>
+      <Spanish>Multiplicador de abdomen</Spanish>
+      <German>Abdomen Multiplikator</German>
+      <Chinesesimp>腹部乘法器</Chinesesimp>
+      <Japanese>腹部乗算器</Japanese>
+      <Italian>Moltiplicatore dell'addome</Italian>
+      <French>Multiplicateur d'abdomen</French>
+      <Polish>Mnożnik brzuszny</Polish>
+      <Russian>Мультипликатор живота</Russian>
+      <Portuguese>Multiplicador do abdómen</Portuguese>
+      <Czech>Multiplikátor břicha</Czech>
+    </Key>
+    <Key ID="STR_AAA_AbdomenMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Abdomen" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de blindaje para el punto de impacto "Abdomen". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Unterleib" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>腹部 "击中点的护甲系数乘以的数值。较高的值意味着这个打击点有更多的装甲，较小的值意味着较少的装甲。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>Abdomen "ヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーが高くなり、値が小さいほどアーマーが低くなります。0を指定するとこの設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto colpito "Addome". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>Valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Abdomen". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactive ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Abdomen". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для точки попадания "Живот". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Abdómen". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient pancíře pro zásahový bod "Břicho". Vyšší hodnota znamená, že tento bod zásahu má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_DiaphragmMult">
+      <English>Diaphragm Multiplier</English>
+      <Spanish>Multiplicador de diafragma</Spanish>
+      <German>Diaphragma-Multiplikator</German>
+      <Chinesesimp>膜片倍增器</Chinesesimp>
+      <Japanese>ダイヤフラムマルチプライヤー</Japanese>
+      <Italian>Diaframma Moltiplicatore</Italian>
+      <French>Multiplicateur à diaphragme</French>
+      <Polish>Mnożnik membranowy</Polish>
+      <Russian>Мембранный мультипликатор</Russian>
+      <Portuguese>Multiplicador do diafragma</Portuguese>
+      <Czech>Membránový násobič</Czech>
+    </Key>
+    <Key ID="STR_AAA_DiaphragmMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Diaphragm" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de armadura para el punto de impacto "Diafragma". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Zwerchfell" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>隔膜 "击中点的护甲系数乘以的数值。数值越高意味着这个打击点有更多的护甲，数值越小意味着护甲越少。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>Diaphragm "ヒットポイントのアーマー係数を乗算するための値です。値が高いほどこのヒットポイントのアーマーは高くなり、値が小さいほどアーマーは低くなります。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto ferita "Diaframma". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Diaphragme". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Diaphragm". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для хитпоинта "Диафрагма". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem por para o ponto de golpe "Diafragma". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient pancíře pro zásahový bod "Membrána". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_ChestMult">
+      <English>Chest Multiplier</English>
+      <Spanish>Multiplicador de pecho</Spanish>
+      <German>Brust-Multiplikator</German>
+      <Chinesesimp>胸部乘法器</Chinesesimp>
+      <Japanese>チェストマルチプライヤー</Japanese>
+      <Italian>Moltiplicatore del torace</Italian>
+      <French>Multiplicateur de coffres</French>
+      <Polish>Mnożnik skrzyń</Polish>
+      <Russian>Множитель сундука</Russian>
+      <Portuguese>Multiplicador de tórax</Portuguese>
+      <Czech>Násobitel hrudníku</Czech>
+    </Key>
+    <Key ID="STR_AAA_ChestMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Chest" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de armadura para el punto de impacto "Pecho". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Brust" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>胸部 "打击点的护甲系数乘以的数值。数值越高意味着这个打击点有更多的护甲，数值越小意味着护甲越少。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>Chest」ヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーが高く、値が小さいほどアーマーが低いことを意味します。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto ferita "Petto". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Coffre". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Chest". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для точки попадания "Грудь". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Peito". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient brnění pro zásahový bod "Truhla". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_BodyMult">
+      <English>Body Multiplier</English>
+      <Spanish>Multiplicador de cuerpos</Spanish>
+      <German>Körper-Multiplikator</German>
+      <Chinesesimp>身体倍增器</Chinesesimp>
+      <Japanese>ボディマルチプライヤー</Japanese>
+      <Italian>Moltiplicatore del corpo</Italian>
+      <French>Multiplicateur de corps</French>
+      <Polish>Body Multiplier</Polish>
+      <Russian>Множитель тела</Russian>
+      <Portuguese>Multiplicador de corpo</Portuguese>
+      <Czech>Multiplikátor těla</Czech>
+    </Key>
+    <Key ID="STR_AAA_BodyMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Body" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de armadura para el punto de impacto "Cuerpo". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Körper" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>身体 "打击点的护甲系数乘以的数值。数值越高意味着这个打击点有更多的护甲，数值越小意味着护甲越少。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>Body」ヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーは高くなり、値が小さいほどアーマーは低くなります。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto colpito "Corpo". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Corps". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Body". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для точки попадания "Тело". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Corpo". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient brnění pro zásahový bod "Tělo". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_ArmsMult">
+      <English>Arms Multiplier</English>
+      <Spanish>Multiplicador de brazos</Spanish>
+      <German>Waffenmultiplikator</German>
+      <Chinesesimp>武器倍增器</Chinesesimp>
+      <Japanese>アームズ・マルチプライヤー</Japanese>
+      <Italian>Moltiplicatore di armi</Italian>
+      <French>Multiplicateur d'armes</French>
+      <Polish>Mnożnik broni</Polish>
+      <Russian>Множитель оружия</Russian>
+      <Portuguese>Multiplicador de braços</Portuguese>
+      <Czech>Multiplikátor zbraní</Czech>
+    </Key>
+    <Key ID="STR_AAA_ArmsMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Arms" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de blindaje para el punto de impacto "Armas". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Waffen" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>武器 "命中点的护甲系数乘以的数值。数值越高意味着这个打击点有更多的护甲，数值越小意味着护甲越少。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>Arms」ヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーは高くなり、値が小さいほどアーマーは低くなります。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto ferita "Armi". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Armes". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Arms". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для точки попадания "Оружие". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Armas". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient pancíře pro zásahový bod "Arms". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_HandsMult">
+      <English>Hands Multiplier</English>
+      <Spanish>Multiplicador de manos</Spanish>
+      <German>Hände Multiplikator</German>
+      <Chinesesimp>手的乘法</Chinesesimp>
+      <Japanese>ハンズマルチプライヤー</Japanese>
+      <Italian>Moltiplicatore di mani</Italian>
+      <French>Multiplicateur de mains</French>
+      <Polish>Mnożnik rąk</Polish>
+      <Russian>Множитель рук</Russian>
+      <Portuguese>Multiplicador das mãos</Portuguese>
+      <Czech>Multiplikátor rukou</Czech>
+    </Key>
+    <Key ID="STR_AAA_HandsMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Hands" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de armadura para el punto de impacto "Manos". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Hände" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>手 "击中点的护甲系数乘以的数值。较高的值意味着这个打击点有更多的护甲，较小的值意味着较少的护甲。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>手」のヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーが高くなり、値が小さいほどアーマーが低くなります。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto ferita "Mani". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Mains". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Hands". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для хитпоинта "Руки". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Mãos". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient brnění pro zásahový bod "Ruce". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
+    <Key ID="STR_AAA_LegsMult">
+      <English>Legs Multiplier</English>
+      <Spanish>Multiplicador de piernas</Spanish>
+      <German>Beine Multiplikator</German>
+      <Chinesesimp>腿部乘法器</Chinesesimp>
+      <Japanese>レッグスマルチプライヤー</Japanese>
+      <Italian>Moltiplicatore di gambe</Italian>
+      <French>Multiplicateur de jambes</French>
+      <Polish>Mnożnik nóg</Polish>
+      <Russian>Множитель ног</Russian>
+      <Portuguese>Multiplicador das pernas</Portuguese>
+      <Czech>Násobitel nohou</Czech>
+    </Key>
+    <Key ID="STR_AAA_LegsMult_Desc">
+      <English>The value to multiply the armor coefficient by for the "Legs" hitpoint. A higher value means this hitpoint has more armor, a smaller value means less armor. A value of 0 will disable this setting.</English>
+      <Spanish>El valor por el que se multiplica el coeficiente de blindaje para el punto de impacto "Piernas". Un valor más alto significa que este punto de impacto tiene más armadura, un valor más pequeño significa menos armadura. Un valor de 0 desactivará este ajuste.</Spanish>
+      <German>Der Wert, mit dem der Rüstungskoeffizient für den Trefferpunkt "Beine" multipliziert wird. Ein höherer Wert bedeutet, dass dieser Trefferpunkt mehr Panzerung hat, ein kleinerer Wert bedeutet weniger Panzerung. Bei einem Wert von 0 ist diese Einstellung deaktiviert.</German>
+      <Chinesesimp>腿部 "击中点的护甲系数乘以的数值。数值越高意味着这个打击点有更多的护甲，数值越小意味着护甲越少。值为0将禁用此设置。</Chinesesimp>
+      <Japanese>脚」のヒットポイントのアーマー係数を乗じる値です。値が高いほどこのヒットポイントのアーマーは高くなり、値が小さいほどアーマーは低くなります。0を指定すると、この設定は無効になります。</Japanese>
+      <Italian>Il valore per cui moltiplicare il coefficiente di armatura per il punto ferita "Gambe". Un valore più alto significa che il punto colpito ha più armatura, un valore più basso significa meno armatura. Un valore pari a 0 disattiva questa impostazione.</Italian>
+      <French>La valeur par laquelle il faut multiplier le coefficient d'armure pour le point d'impact "Jambes". Une valeur plus élevée signifie que ce point d'impact a plus d'armure, une valeur plus petite signifie moins d'armure. Une valeur de 0 désactivera ce paramètre.</French>
+      <Polish>Wartość, przez którą należy pomnożyć współczynnik pancerza dla punktu trafienia "Legs". Wyższa wartość oznacza, że ten punkt trafienia ma więcej pancerza, mniejsza wartość oznacza mniej pancerza. Wartość 0 wyłącza to ustawienie.</Polish>
+      <Russian>Значение, на которое нужно умножить коэффициент брони для хитпоинта "Ноги". Большее значение означает, что эта точка имеет больше брони, меньшее - меньше. Значение 0 отключает эту настройку.</Russian>
+      <Portuguese>O valor para multiplicar o coeficiente de blindagem pelo do ponto de golpe "Pernas". Um valor mais alto significa que este ponto de golpe tem mais armadura, um valor mais pequeno significa menos armadura. Um valor de 0 irá desactivar esta definição.</Portuguese>
+      <Czech>Hodnota, kterou se násobí koeficient brnění pro zásahový bod "Nohy". Vyšší hodnota znamená, že tento hitpoint má větší pancíř, menší hodnota znamená menší pancíř. Hodnota 0 toto nastavení vypne.</Czech>
+    </Key>
   </Package>
 </Project>
