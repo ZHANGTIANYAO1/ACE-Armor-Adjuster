@@ -15,7 +15,7 @@
 params["_unit"];
 
 // Remove existing ace medical damage event handler
-_unit removeEventHandler ["HandleDamage", _unit getVariable "ACE_medical_HandleDamageEHID"];
+_unit removeEventHandler ["HandleDamage", _unit getVariable ["ACE_medical_HandleDamageEHID", -1]];
 
 // Replace with custom damage event handler
 _unit setVariable [
