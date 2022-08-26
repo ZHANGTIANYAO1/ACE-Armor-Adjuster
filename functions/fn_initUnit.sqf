@@ -23,6 +23,10 @@ _unit setVariable [
 	_unit addEventHandler ["HandleDamage", {
 		if (AAA_VAR_MOD_ENABLED) then {
 			params ["_unit", "_selection", "_damage", "_source", "_projectile", "_hitIndex", "_instigator", "_hitPoint"];
+			
+			// Don't do custom damage processing for disabled hitpoints
+			if !(missionNameSpace getVariable [format ["AAA_VAR_%1_ENABLED", _hitPoint], false]) exitWith {};
+			
 			private ["_prevDamage", "_armorCoef"];
 			// Hitpoint damage before this calculation
 			if (_hitPoint == "") then {
@@ -82,6 +86,10 @@ _unit setVariable [
 			// If we found a hitpoint multiplier, apply it to the armorCoef
 			if (_hitPointMult > 0) then {
 					_armorCoef = _armorCoef * _hitPointMult;
+			};
+			// Detect explosive damage and apply AAA_VAR_EXPLOSIVE_MULT if it is greater than 0 
+			if (AAA_VAR_EXPLOSIVE_MULT > 0 && {_projectile != "" && {getNumber (configFile >> "CfgAmmo" >> _projectile >> "indirectHit") > 0}}) then {
+				_armorCoef = _armorCoef * AAA_VAR_EXPLOSIVE_MULT;
 			};
 			// Multiply addedDamage by hitpoint's armor value divided by armor coefficient to correct ACE's armor
 			private _damageMultiplier = ([_unit, _hitPoint] call ace_medical_engine_fnc_getHitpointArmor) / _armorCoef;

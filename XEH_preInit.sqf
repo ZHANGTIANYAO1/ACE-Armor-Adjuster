@@ -26,6 +26,127 @@ private _modName = localize "STR_AAA_Name";
 ] call CBA_fnc_addSetting;
 
 [
+	"AAA_VAR_HITFACE_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_FaceEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITNECK_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_NeckEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITHEAD_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_HeadEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITPELVIS_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_PelvisEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITABDOMEN_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_AbdomenEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITDIAPHRAGM_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_DiaphragmEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITCHEST_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_ChestEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITBODY_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_BodyEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITARMS_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_ArmsEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITHANDS_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_HandsEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_HITLEGS_ENABLED",
+	"CHECKBOX",
+	["$STR_AAA_LegsEnabled", "$STR_AAA_HPEnabled_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	true,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
 	"AAA_VAR_PLAYER_ARMOR_COEF",
 	"SLIDER",
 	["$STR_AAA_PlayerArmorCoef", "$STR_AAA_PlayerArmorCoef_Desc"],
@@ -205,6 +326,17 @@ private _modName = localize "STR_AAA_Name";
 	"AAA_VAR_HITLEGS_MULT",
 	"SLIDER",
 	["$STR_AAA_LegsMult", "$STR_AAA_LegsMult_Desc"],
+	[_modName, "$STR_AAA_HitpointMults"],
+	[0, 50, 0, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_EXPLOSIVE_MULT",
+	"SLIDER",
+	["$STR_AAA_ExplosiveMult", "$STR_AAA_ExplosiveMult_Desc"],
 	[_modName, "$STR_AAA_HitpointMults"],
 	[0, 50, 0, 2, false],
 	1,
