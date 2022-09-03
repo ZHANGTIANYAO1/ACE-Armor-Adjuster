@@ -15,5 +15,12 @@
 // Override damage handling for ACE Medical for all units on server
 if (isServer) then {
 	// Call AAA_fnc_initUnit locally to each unit when they init
-	["CAManBase", "init", {_this remoteExecCall ["AAA_fnc_initUnit", _this#0]}, true, [], true] call CBA_fnc_addClassEventHandler;
+	["CAManBase", "init", {
+		params ["_unit"];
+		if (local _unit) then {
+			[_unit] call AAA_fnc_initUnit;
+		} else {
+			[_unit] remoteExecCall ["AAA_fnc_initUnit", _unit];
+		};
+	}, true, [], true] call CBA_fnc_addClassEventHandler;
 };
