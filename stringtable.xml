@@ -18,7 +18,7 @@
       <English>[1] Toggles</English>
       <Spanish>[1] Interruptores</Spanish>
       <German>[1] Schaltet  um.</German>
-      <Chinesesimp>[1] 钮扣</Chinesesimp>
+      <Chinesesimp>[1] 开关</Chinesesimp>
       <Japanese>[1] トグル</Japanese>
       <Italian>[1] Alette</Italian>
       <French>[1] Toggles</French>
@@ -57,7 +57,7 @@
       <English>[2] Armor Coefficients</English>
       <Spanish>[2] Coeficientes de blindaje</Spanish>
       <German>[2] Rüstungskoeffizienten</German>
-      <Chinesesimp>[2] 盔甲系数</Chinesesimp>
+      <Chinesesimp>[2] 装甲系数</Chinesesimp>
       <Japanese>[2] アーマー係数</Japanese>
       <Italian>[2] Coefficienti di armatura</Italian>
       <French>[2] Coefficients d'armure</French>
@@ -174,7 +174,7 @@
       <English>CIVILIAN Armor Coefficient</English>
       <Spanish>Coeficiente de Blindaje CIVIL</Spanish>
       <German>CIVILIAN Rüstungskoeffizient</German>
-      <Chinesesimp>民兵装甲系数</Chinesesimp>
+      <Chinesesimp>平民装甲系数</Chinesesimp>
       <Japanese>シビリアンアーマー係数</Japanese>
       <Italian>Coefficiente di armatura CIVILE</Italian>
       <French>CIVILE Coefficient d'armure</French>
@@ -226,7 +226,7 @@
       <English>[3] Hitpoint Multipliers</English>
       <Spanish>[3] Multiplicadores de puntos de golpe</Spanish>
       <German>[3] Multiplikatoren für Trefferpunkte</German>
-      <Chinesesimp>[3] 命中率乘法</Chinesesimp>
+      <Chinesesimp>[3] 命中倍率器</Chinesesimp>
       <Japanese>[3] ヒットポイント倍率</Japanese>
       <Italian>[3] Moltiplicatori di punti ferita</Italian>
       <French>[3] Multiplicateurs de points de vie</French>
@@ -239,7 +239,7 @@
       <English>Face Multiplier</English>
       <Spanish>Multiplicador de caras</Spanish>
       <German>Gesicht Multiplikator</German>
-      <Chinesesimp>脸部乘法器</Chinesesimp>
+      <Chinesesimp>脸部倍率器</Chinesesimp>
       <Japanese>フェイスマルチプライヤー</Japanese>
       <Italian>Moltiplicatore del viso</Italian>
       <French>Multiplicateur de visage</French>
@@ -265,7 +265,7 @@
       <English>Neck Multiplier</English>
       <Spanish>Multiplicador de cuello</Spanish>
       <German>Nacken-Multiplikator</German>
-      <Chinesesimp>颈部乘法器</Chinesesimp>
+      <Chinesesimp>颈部倍率器</Chinesesimp>
       <Japanese>ネックマルチプライヤー</Japanese>
       <Italian>Moltiplicatore del collo</Italian>
       <French>Multiplicateur de cou</French>
@@ -291,7 +291,7 @@
       <English>Head Multiplier</English>
       <Spanish>Multiplicador de cabezas</Spanish>
       <German>Kopf-Multiplikator</German>
-      <Chinesesimp>头部乘法器</Chinesesimp>
+      <Chinesesimp>头部倍率器</Chinesesimp>
       <Japanese>ヘッドマルチプライヤー</Japanese>
       <Italian>Moltiplicatore di testa</Italian>
       <French>Multiplicateur de tête</French>
@@ -317,7 +317,7 @@
       <English>Pelvis Multiplier</English>
       <Spanish>Multiplicador de pelvis</Spanish>
       <German>Becken-Multiplikator</German>
-      <Chinesesimp>骨盆乘法器</Chinesesimp>
+      <Chinesesimp>骨盆倍率器</Chinesesimp>
       <Japanese>ペルビス・マルチプライヤー</Japanese>
       <Italian>Moltiplicatore del bacino</Italian>
       <French>Multiplicateur de pelvis</French>
@@ -343,7 +343,7 @@
       <English>Abdomen Multiplier</English>
       <Spanish>Multiplicador de abdomen</Spanish>
       <German>Abdomen Multiplikator</German>
-      <Chinesesimp>腹部乘法器</Chinesesimp>
+      <Chinesesimp>腹部倍率器</Chinesesimp>
       <Japanese>腹部乗算器</Japanese>
       <Italian>Moltiplicatore dell'addome</Italian>
       <French>Multiplicateur d'abdomen</French>
@@ -369,7 +369,7 @@
       <English>Diaphragm Multiplier</English>
       <Spanish>Multiplicador de diafragma</Spanish>
       <German>Diaphragma-Multiplikator</German>
-      <Chinesesimp>膜片倍增器</Chinesesimp>
+      <Chinesesimp>膜片倍率器</Chinesesimp>
       <Japanese>ダイヤフラムマルチプライヤー</Japanese>
       <Italian>Diaframma Moltiplicatore</Italian>
       <French>Multiplicateur à diaphragme</French>
@@ -395,7 +395,7 @@
       <English>Chest Multiplier</English>
       <Spanish>Multiplicador de pecho</Spanish>
       <German>Brust-Multiplikator</German>
-      <Chinesesimp>胸部乘法器</Chinesesimp>
+      <Chinesesimp>胸部倍率器</Chinesesimp>
       <Japanese>チェストマルチプライヤー</Japanese>
       <Italian>Moltiplicatore del torace</Italian>
       <French>Multiplicateur de coffres</French>
@@ -421,7 +421,7 @@
       <English>Body Multiplier</English>
       <Spanish>Multiplicador de cuerpos</Spanish>
       <German>Körper-Multiplikator</German>
-      <Chinesesimp>身体倍增器</Chinesesimp>
+      <Chinesesimp>身体倍率器</Chinesesimp>
       <Japanese>ボディマルチプライヤー</Japanese>
       <Italian>Moltiplicatore del corpo</Italian>
       <French>Multiplicateur de corps</French>
@@ -447,7 +447,7 @@
       <English>Arms Multiplier</English>
       <Spanish>Multiplicador de brazos</Spanish>
       <German>Waffenmultiplikator</German>
-      <Chinesesimp>武器倍增器</Chinesesimp>
+      <Chinesesimp>武器倍率器</Chinesesimp>
       <Japanese>アームズ・マルチプライヤー</Japanese>
       <Italian>Moltiplicatore di armi</Italian>
       <French>Multiplicateur d'armes</French>
@@ -473,7 +473,7 @@
       <English>Hands Multiplier</English>
       <Spanish>Multiplicador de manos</Spanish>
       <German>Hände Multiplikator</German>
-      <Chinesesimp>手的乘法</Chinesesimp>
+      <Chinesesimp>手部倍率器</Chinesesimp>
       <Japanese>ハンズマルチプライヤー</Japanese>
       <Italian>Moltiplicatore di mani</Italian>
       <French>Multiplicateur de mains</French>
@@ -499,7 +499,7 @@
       <English>Legs Multiplier</English>
       <Spanish>Multiplicador de piernas</Spanish>
       <German>Beine Multiplikator</German>
-      <Chinesesimp>腿部乘法器</Chinesesimp>
+      <Chinesesimp>腿部倍率器</Chinesesimp>
       <Japanese>レッグスマルチプライヤー</Japanese>
       <Italian>Moltiplicatore di gambe</Italian>
       <French>Multiplicateur de jambes</French>
@@ -525,7 +525,7 @@
       <English>Face Enabled</English>
       <Spanish>Cara habilitada</Spanish>
       <German>Gesicht Aktiviert</German>
-      <Chinesesimp>启用了脸谱</Chinesesimp>
+      <Chinesesimp>启用了脸部</Chinesesimp>
       <Japanese>フェイスイネーブル</Japanese>
       <Italian>Volto abilitato</Italian>
       <French>Visage activé</French>
@@ -603,7 +603,7 @@
       <English>Chest Enabled</English>
       <Spanish>Pecho habilitado</Spanish>
       <German>Truhe Aktiviert</German>
-      <Chinesesimp>启用的胸腔</Chinesesimp>
+      <Chinesesimp>启用胸腔</Chinesesimp>
       <Japanese>チェスト有効</Japanese>
       <Italian>Petto abilitato</Italian>
       <French>Coffre activé</French>
@@ -616,7 +616,7 @@
       <English>Body Enabled</English>
       <Spanish>Cuerpo habilitado</Spanish>
       <German>Körper Aktiviert</German>
-      <Chinesesimp>启用的主体</Chinesesimp>
+      <Chinesesimp>启用躯干</Chinesesimp>
       <Japanese>本体有効</Japanese>
       <Italian>Corpo abilitato</Italian>
       <French>Corps activé</French>
@@ -642,7 +642,7 @@
       <English>Hands Enabled</English>
       <Spanish>Manos habilitadas</Spanish>
       <German>Hände Aktiviert</German>
-      <Chinesesimp>启用的手</Chinesesimp>
+      <Chinesesimp>启用手</Chinesesimp>
       <Japanese>ハンズイネーブル</Japanese>
       <Italian>Mani abilitate</Italian>
       <French>Mains activées</French>
@@ -655,7 +655,7 @@
       <English>Legs Enabled</English>
       <Spanish>Piernas habilitadas</Spanish>
       <German>Beine Aktiviert</German>
-      <Chinesesimp>启用的腿</Chinesesimp>
+      <Chinesesimp>启用腿</Chinesesimp>
       <Japanese>レッグス有効</Japanese>
       <Italian>Gambe abilitate</Italian>
       <French>Jambes activées</French>
