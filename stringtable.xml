@@ -703,5 +703,39 @@
       <Portuguese>O valor para multiplicar o coeficiente de blindagem por para danos explosivos. Um valor superior significa mais resistência à explosão, um valor inferior significa menos resistência à explosão. Um valor de 0 irá desactivar esta definição.</Portuguese>
       <Czech>Hodnota, kterou se násobí koeficient pancíře pro výbušné poškození. Vyšší hodnota znamená větší odolnost proti výbuchu, nižší hodnota znamená menší odolnost proti výbuchu. Hodnota 0 toto nastavení vypne.</Czech>
     </Key>
+    <Key ID="STR_AAA_THRESHOULD_VALUE">
+      <English>Armor Threshhold</English>
+      <Chinesesimp>护甲阈值</Chinesesimp>
+      <Spanish>límite</Spanish>
+      <German>Schwelle</German>
+      <Japanese>しきい値</Japanese>
+      <Italian>soglia</Italian>
+      <French>au seuil</French>
+      <Polish>próg</Polish>
+      <Russian>порог</Russian>
+      <Portuguese>limite</Portuguese>
+      <Czech>práh</Czech>
+    </Key>
+    <Key ID="STR_AAA_THRESHOULD_VALUE_Desc">
+      <English>Threshold setting, this mod will only be enabled if the armor value exceeds this value</English>
+      <Chinesesimp>阈值设置，只有当护甲值超过该数值时才会启用此模组</Chinesesimp>
+      <Spanish>Configuración de umbral, este mod solo se habilitará si el valor de la armadura supera este valor</Spanish>
+      <German>Schwellenwerteinstellung, dieser Mod wird nur aktiviert, wenn der Rüstungswert diesen Wert überschreitet</German>
+      <Japanese>しきい値設定。この mod は、鎧の値がこの値を超えた場合にのみ有効になります</Japanese>
+      <Italian>Impostazione della soglia, questa mod sarà abilitata solo quando il valore dell'armatura supera questa soglia</Italian>
+      <French>Réglage du seuil, ce mod ne sera activé que lorsque la valeur d'armure dépasse ce seuil</French>
+      <Polish>Ustawienie progu, ten mod zostanie włączony tylko wtedy, gdy wartość pancerza przekroczy ten próg</Polish>
+      <Russian>Настройка порога, этот мод будет включен только тогда, когда значение брони превысит этот порог.</Russian>
+      <Portuguese>Configuração de limite, este mod só será ativado quando o valor da armadura exceder esse limite</Portuguese>
+      <Czech>Nastavení prahu, tento mod bude povolen pouze v případě, že hodnota brnění překročí tuto hodnotu</Czech>
+    </Key>
+    <Key ID="STR_AAA_DEBUG">
+      <English>DEBUG</English>
+      <Chinesesimp>调试</Chinesesimp>
+    </Key>
+    <Key ID="STR_AAA_DEBUG_Desc">
+      <English>enable debug message</English>
+      <Chinesesimp>启用调试信息</Chinesesimp>
+    </Key>
   </Package>
 </Project>

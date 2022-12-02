@@ -147,6 +147,28 @@ private _modName = localize "STR_AAA_Name";
 ] call CBA_fnc_addSetting;
 
 [
+	"AAA_VAR_DEBUG",
+	"CHECKBOX",
+	["$STR_AAA_DEBUG", "$STR_AAA_DEBUG_Desc"],
+	[_modName, "$STR_AAA_Toggles"],
+	false,
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
+	"AAA_VAR_ARMOR_THRESHOULD_VALUE",
+	"SLIDER",
+	["$STR_AAA_THRESHOULD_VALUE", "$STR_AAA_THRESHOULD_VALUE_Desc"],
+	[_modName, "$STR_AAA_ArmorCoefs"],
+	[0, 50, 3, 2, false],
+	1,
+	{},
+	false
+] call CBA_fnc_addSetting;
+
+[
 	"AAA_VAR_PLAYER_ARMOR_COEF",
 	"SLIDER",
 	["$STR_AAA_PlayerArmorCoef", "$STR_AAA_PlayerArmorCoef_Desc"],
