@@ -158,9 +158,9 @@ private _modName = localize "STR_AAA_Name";
 ] call CBA_fnc_addSetting;
 
 [
-	"AAA_VAR_ARMOR_THRESHOULD_VALUE",
+	"AAA_VAR_ARMOR_THRESHOLD_VALUE",
 	"SLIDER",
-	["$STR_AAA_THRESHOULD_VALUE", "$STR_AAA_THRESHOULD_VALUE_Desc"],
+	["$STR_AAA_THRESHOLD_VALUE", "$STR_AAA_THRESHOLD_VALUE_Desc"],
 	[_modName, "$STR_AAA_ArmorCoefs"],
 	[0, 50, 3, 2, false],
 	1,
