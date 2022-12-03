@@ -35,13 +35,12 @@ _unit setVariable [
 				_prevDamage = _unit getHitIndex _hitIndex;
 			};
 			
-			//get hit point armor 
-			private _hitpointarmor = [_unit, _hitPoint] call ace_medical_engine_fnc_getHitpointArmor;
+			private _hitpointArmor = [_unit, _hitPoint] call ace_medical_engine_fnc_getHitpointArmor;
 			// Hitpoint damage to be added by this calculation
 			private _addedDamage = _damage - _prevDamage;
 
-			//if the hit point armor is bigger than THRESHOULD then caluclate the new damage else using prevDamage
-			if(_hitpointarmor > AAA_VAR_ARMOR_THRESHOULD_VALUE) then {
+			// If the hitpoint armor is bigger than THRESHOLD, caluclate the new damage, otherwise add no damage
+			if (_hitpointArmor > AAA_VAR_ARMOR_THRESHOLD_VALUE) then {
 				// Check if there's already an armor coefficient set for this unit, use that if there is
 				// Otherwise, get armor coefficient manually
 				private _unitCoef = _unit getVariable ["AAA_ArmorCoef", 0];
@@ -98,15 +97,15 @@ _unit setVariable [
 					_armorCoef = _armorCoef * AAA_VAR_EXPLOSIVE_MULT;
 				};
 				// Multiply addedDamage by hitpoint's armor value divided by armor coefficient to correct ACE's armor
-				private _damageMultiplier = ([_unit, _hitPoint] call ace_medical_engine_fnc_getHitpointArmor) / _armorCoef;
+				private _damageMultiplier = _hitpointArmor / _armorCoef;
 				_addedDamage = _addedDamage * _damageMultiplier;
 			} else {
 				_addedDamage = 0;
 			};
 
 			//simple DEBUG message
-			if(AAA_VAR_DEBUG) then {
-				systemChat format["prevDamage%1, addedDamage %2, hit point armor %3, damage %4", _prevDamage, _addedDamage, _hitpointarmor, _damage];
+			if (AAA_VAR_DEBUG) then {
+				systemChat format["prevDamage: %1, addedDamage: %2, hitpointArmor: %3, total damage: %4", _prevDamage, _addedDamage, _hitpointArmor, _prevDamage + _addedDamage];
 			};
 			
 			// Replace original damage value with new damage value
