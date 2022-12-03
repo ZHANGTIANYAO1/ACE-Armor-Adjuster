@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="AAA">
   <Package name="ACE_Armor_Adjuster">
     <Key ID="STR_AAA_Name">
@@ -703,39 +703,57 @@
       <Portuguese>O valor para multiplicar o coeficiente de blindagem por para danos explosivos. Um valor superior significa mais resistência à explosão, um valor inferior significa menos resistência à explosão. Um valor de 0 irá desactivar esta definição.</Portuguese>
       <Czech>Hodnota, kterou se násobí koeficient pancíře pro výbušné poškození. Vyšší hodnota znamená větší odolnost proti výbuchu, nižší hodnota znamená menší odolnost proti výbuchu. Hodnota 0 toto nastavení vypne.</Czech>
     </Key>
-    <Key ID="STR_AAA_THRESHOULD_VALUE">
-      <English>Armor Threshhold</English>
+    <Key ID="STR_AAA_THRESHOLD_VALUE">
+      <English>Armor Threshold</English>
+      <Spanish>Umbral de blindaje</Spanish>
+      <German>Schwellenwert für Rüstung</German>
       <Chinesesimp>护甲阈值</Chinesesimp>
-      <Spanish>límite</Spanish>
-      <German>Schwelle</German>
-      <Japanese>しきい値</Japanese>
-      <Italian>soglia</Italian>
-      <French>au seuil</French>
-      <Polish>próg</Polish>
-      <Russian>порог</Russian>
-      <Portuguese>limite</Portuguese>
-      <Czech>práh</Czech>
+      <Japanese>アーマースレッショルド</Japanese>
+      <Italian>Soglia di armatura</Italian>
+      <French>Seuil d'armure</French>
+      <Polish>Próg pancerza</Polish>
+      <Russian>Порог брони</Russian>
+      <Portuguese>Limiar de Armadura</Portuguese>
+      <Czech>Práh brnění</Czech>
     </Key>
-    <Key ID="STR_AAA_THRESHOULD_VALUE_Desc">
-      <English>Threshold setting, this mod will only be enabled if the armor value exceeds this value</English>
+    <Key ID="STR_AAA_THRESHOLD_VALUE_Desc">
+      <English>Threshold setting, this mod will only be enabled if the armor value exceeds this value.</English>
+      <Spanish>Ajuste del umbral, este mod sólo se activará si el valor de la armadura supera este valor.</Spanish>
+      <German>Schwellenwerteinstellung wird dieser Mod nur aktiviert, wenn der Rüstungswert diesen Wert überschreitet.</German>
       <Chinesesimp>阈值设置，只有当护甲值超过该数值时才会启用此模组</Chinesesimp>
-      <Spanish>Configuración de umbral, este mod solo se habilitará si el valor de la armadura supera este valor</Spanish>
-      <German>Schwellenwerteinstellung, dieser Mod wird nur aktiviert, wenn der Rüstungswert diesen Wert überschreitet</German>
-      <Japanese>しきい値設定。この mod は、鎧の値がこの値を超えた場合にのみ有効になります</Japanese>
-      <Italian>Impostazione della soglia, questa mod sarà abilitata solo quando il valore dell'armatura supera questa soglia</Italian>
-      <French>Réglage du seuil, ce mod ne sera activé que lorsque la valeur d'armure dépasse ce seuil</French>
-      <Polish>Ustawienie progu, ten mod zostanie włączony tylko wtedy, gdy wartość pancerza przekroczy ten próg</Polish>
-      <Russian>Настройка порога, этот мод будет включен только тогда, когда значение брони превысит этот порог.</Russian>
-      <Portuguese>Configuração de limite, este mod só será ativado quando o valor da armadura exceder esse limite</Portuguese>
-      <Czech>Nastavení prahu, tento mod bude povolen pouze v případě, že hodnota brnění překročí tuto hodnotu</Czech>
+      <Japanese>Thresholdの設定により、アーマーの値がこの値を超えた場合のみ、このMODが有効になります。</Japanese>
+      <Italian>Impostazione della soglia, questa mod sarà attivata solo se il valore dell'armatura supera questo valore.</Italian>
+      <French>Réglage du seuil, ce mod ne sera activé que si la valeur de l'armure dépasse cette valeur.</French>
+      <Polish>Ustawienie progu, ten mod będzie włączony tylko wtedy, gdy wartość pancerza przekroczy tę wartość.</Polish>
+      <Russian>Настройка порога, этот мод будет включен, только если значение брони превысит это значение.</Russian>
+      <Portuguese>Configuração do limiar, este mod só será activado se o valor da armadura exceder este valor.</Portuguese>
+      <Czech>Nastavení prahové hodnoty, tento mod se aktivuje pouze tehdy, pokud hodnota brnění překročí tuto hodnotu.</Czech>
     </Key>
     <Key ID="STR_AAA_DEBUG">
-      <English>DEBUG</English>
+      <English>Debug</English>
+      <Spanish>Depurar</Spanish>
+      <German>Debuggen</German>
       <Chinesesimp>调试</Chinesesimp>
+      <Japanese>デバッグ</Japanese>
+      <Italian>Debug</Italian>
+      <French>Déboguer</French>
+      <Polish>Debug</Polish>
+      <Russian>Отладка</Russian>
+      <Portuguese>Debug</Portuguese>
+      <Czech>Ladění</Czech>
     </Key>
     <Key ID="STR_AAA_DEBUG_Desc">
-      <English>enable debug message</English>
+      <English>Enable debug messages.</English>
+      <Spanish>Activar los mensajes de depuración.</Spanish>
+      <German>Aktivieren Sie Debug-Meldungen.</German>
       <Chinesesimp>启用调试信息</Chinesesimp>
+      <Japanese>デバッグメッセージを有効にする。</Japanese>
+      <Italian>Abilita i messaggi di debug.</Italian>
+      <French>Activez les messages de débogage.</French>
+      <Polish>Włącz komunikaty debugowania.</Polish>
+      <Russian>Включить отладочные сообщения.</Russian>
+      <Portuguese>Habilitar mensagens de debug.</Portuguese>
+      <Czech>Povolení ladicích zpráv.</Czech>
     </Key>
   </Package>
 </Project>
